@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+  <include file="$(find fusion)/launch/fusion_sim.launch"/>
+  <include file="$(find mapper)/launch/mapper.launch"/>
+  <include file="$(find data_visualization)/launch/data_visualization_sim.launch"/>
+</launch>
