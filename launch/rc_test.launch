@@ -4,4 +4,5 @@
   <!--<node pkg="visual_odometry" type="visual_odometry" name="base_link_to_odom" output="screen"/>-->
   <node pkg="ptp_trajectory" type="ptp_trajectory" name="PTPtrajectory" output="screen"/>
   <include file="$(find path_tracking)/launch/path_tracking_rc.launch"/>
+  <include file="$(find vesc_interface)/launch/racecar_control_interface.launch"/>
 </launch>

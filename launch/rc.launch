@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <launch>
+  <include file="$(find vesc_interface)/launch/racecar_control_interface.launch"/>
   <include file="$(find fusion)/launch/fusion_rc.launch"/>
   <include file="$(find mapper)/launch/mapper.launch"/>
   <include file="$(find path_planning)/launch/path_planning_rc.launch"/>
